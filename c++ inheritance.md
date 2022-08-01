@@ -4,16 +4,16 @@ Inheritance is one of the key features of Object-oriented programming in C++. It
 
 The derived class inherits the features from the base class and can have additional features of its own. For example,
 
-class Animal
-{
-    // eat() function
-    // sleep() function
-};
+	class Animal
+	{
+	    // eat() function
+	    // sleep() function
+	};
 
-class Dog : public Animal
-{
-    // bark() function
-};
+	class Dog : public Animal
+	{
+	    // bark() function
+	};
 
 Here, the Dog class is derived from the Animal class. Since Dog is derived from Animal, members of Animal are accessible to Dog.
 
@@ -25,7 +25,7 @@ Inheritance in C++
 
 Notice the use of the keyword public while inheriting Dog from Animal.
 
-class Dog : public Animal {...};
+	class Dog : public Animal {...};
 
 We can also use the keywords private and protected instead of public. 
 
