@@ -1,5 +1,4 @@
-# CPP-OOP-programiz.com
-C++ Polymorphism
+# C++ Polymorphism
 
 Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) behaves differently in different scenarios. For example,
 
@@ -249,3 +248,5 @@ Polymorphism allows us to create consistent code. For example,
 Suppose we need to calculate the area of a circle and a square. To do so, we can create a Shape class and derive two classes Circle and Square from it.
 
 In this case, it makes sense to create a function having the same name calculateArea() in both the derived classes rather than creating functions with different names, thus making our code more consistent.
+
+Reference: https://www.programiz.com/cpp-programming/polymorphism
