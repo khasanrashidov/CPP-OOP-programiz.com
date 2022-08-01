@@ -1,4 +1,8 @@
 # C++ Inheritance
+[![en](https://img.shields.io/badge/OOP-encapsulation-blue.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20encapsulation.md)
+[![en](https://img.shields.io/badge/OOP-abstraction-yellow.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20abstraction.md)
+[![en](https://img.shields.io/badge/OOP-inheritance-brightgreen.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20inheritance.md)
+[![en](https://img.shields.io/badge/OOP-polymorphism-blueviolet.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20polymorphism.md)
 
 Inheritance is one of the key features of Object-oriented programming in C++. It allows us to create a new class (derived class) from an existing class (base class).
 
