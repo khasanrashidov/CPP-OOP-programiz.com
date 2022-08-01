@@ -6,7 +6,6 @@ Encapsulation is one of the key features of object-oriented programming. It invo
 
 Bundling similar data members and functions inside a class together also helps in data hiding.
 
-# C++ Encapsulation
 In general, encapsulation is a process of wrapping similar code in one place.
 
 In C++, we can bundle data members and functions that operate together inside a single class. For example,
