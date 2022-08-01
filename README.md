@@ -13,15 +13,18 @@ In general, encapsulation is a process of wrapping similar code in one place.
 
 In C++, we can bundle data members and functions that operate together inside a single class. For example,
 
-	class Rectangle {
-  		public:
-    		int length;
-    		int breadth;
+	class Rectangle
+	{
+	public:
+	    int length;
+	    int breadth;
 
-			int getArea() {
-      		return length * breadth;
-    		}
+	    int getArea()
+	    {
+		return length * breadth;
+	    }
 	};
+	
 In the above program, the function getArea() calculates the area of a rectangle. To calculate the area, it needs length and breadth.
 
 Hence, the data members (length and breadth) and the function getArea() are kept together in the Rectangle class.
@@ -37,29 +40,32 @@ Example 1: C++ Encapsulation
 	#include <iostream>
 	using namespace std;
 
-	class Rectangle {
-	  public:
+	class Rectangle
+	{
+	public:
 	    // Variables required for area calculation
 	    int length;
 	    int breadth;
-	
+
 	    // Constructor to initialize variables
 	    Rectangle(int len, int brth) : length(len), breadth(brth) {}
-	
+
 	    // Function to calculate area
-	    int getArea() {
-	      return length * breadth;
+	    int getArea()
+	    {
+		return length * breadth;
 	    }
 	};
 
-	int main() {
-	  // Create object of Rectangle class
-	  Rectangle rect(8, 6);
-	
-  	// Call getArea() function
-  	cout << "Area = " << rect.getArea();
-	
-	  return 0;
+	int main()
+	{
+	    // Create object of Rectangle class
+	    Rectangle rect(8, 6);
+
+	    // Call getArea() function
+	    cout << "Area = " << rect.getArea();
+
+	    return 0;
 	}
 
 Output
@@ -86,15 +92,17 @@ It helps to control the modification of our data members.
 
 Consider a situation where we want the length field in a class to be non-negative. Here we can make the length variable private and apply the logic inside the method setAge(). For example,
 
-	class Rectangle {
-	  private:
+	class Rectangle
+	{
+	private:
 	    int age;
 
-	  public:
-    	void setLength(int len) {
-      	if (len >= 0)
-       	 	length = len;
-    	}
+	public:
+	    void setLength(int len)
+	    {
+		if (len >= 0)
+		    length = len;
+	    }
 	};
 
 The getter and setter functions provide read-only or write-only access to our class members. For example,
@@ -117,64 +125,71 @@ Data hiding is a way of restricting the access of our data members by hiding the
 We can use access modifiers to achieve data hiding in C++. For example,
 
 Example 2: C++ Data Hiding Using the private Specifier
+	
 	#include <iostream>
 	using namespace std;
-	
-	class Rectangle {
-	   private:
-	
+
+	class Rectangle
+	{
+	private:
 	    // Variables required for area calculation
 	    int length;
-		int breadth;
-	
-	   public:
+	    int breadth;
 
-    	// Setter function for length
-    	void setLength(int len) {
-      	length = len;
-    	}
+	public:
+	    // Setter function for length
+	    void setLength(int len)
+	    {
+		length = len;
+	    }
 
-    	// Setter function for breadth
-    	void setBreadth(int brth) {
-      	breadth = brth;
-    	}
+	    // Setter function for breadth
+	    void setBreadth(int brth)
+	    {
+		breadth = brth;
+	    }
 
-    	// Getter function for length
-    	int getLength() {
-      	return length;
-    	}
+	    // Getter function for length
+	    int getLength()
+	    {
+		return length;
+	    }
 
-   		// Getter function for breadth
-    	int getBreadth() {
-      	return breadth;
-    	}
-    	// Function to calculate area
-    	int getArea() {
-      	return length * breadth;
-    	}
+	    // Getter function for breadth
+	    int getBreadth()
+	    {
+		return breadth;
+	    }
+	    // Function to calculate area
+	    int getArea()
+	    {
+		return length * breadth;
+	    }
 	};
 
-	int main() {
-  	// Create object of Rectangle class
-  	Rectangle rectangle1;
+	int main()
+	{
+	    // Create object of Rectangle class
+	    Rectangle rectangle1;
 
-  	// Initialize length using Setter function
-  	rectangle1.setLength(8);
+	    // Initialize length using Setter function
+	    rectangle1.setLength(8);
 
-  	// Initialize breadth using Setter function
-  	rectangle1.setBreadth(6);
+	    // Initialize breadth using Setter function
+	    rectangle1.setBreadth(6);
 
-  	// Access length using Getter function
-  	cout << "Length = " << rectangle1.getLength() << endl;
+	    // Access length using Getter function
+	    cout << "Length = " << rectangle1.getLength() << endl;
 
-  	// Access breadth using Getter function
-  	cout << "Breadth = " << rectangle1.getBreadth() << endl;
+	    // Access breadth using Getter function
+	    cout << "Breadth = " << rectangle1.getBreadth() << endl;
 
-  	// Call getArea() function
-  	cout << "Area = " << rectangle1.getArea();
+	    // Call getArea() function
+	    cout << "Area = " << rectangle1.getArea();
 
-  	return 0;
+	    return 0;
 	}
+
 
 Output
 
