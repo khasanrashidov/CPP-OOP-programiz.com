@@ -1,4 +1,8 @@
 # C++ Polymorphism
+[![en](https://img.shields.io/badge/OOP-encapsulation-blue.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20encapsulation.md)
+[![en](https://img.shields.io/badge/OOP-abstraction-yellow.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20abstraction.md)
+[![en](https://img.shields.io/badge/OOP-inheritance-brightgreen.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20inheritance.md)
+[![en](https://img.shields.io/badge/OOP-polymorphism-blueviolet.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20polymorphism.md)
 
 Polymorphism is an important concept of object-oriented programming. It simply means more than one form. That is, the same entity (function or operator) behaves differently in different scenarios. For example,
 
