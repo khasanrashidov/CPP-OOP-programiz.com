@@ -1,4 +1,9 @@
 # CPP-OOP-programiz.com
+https://img.shields.io/badge/OOP-encapsulation-blue.svg
+https://img.shields.io/badge/OOP-abstraction-yellow.svg
+https://img.shields.io/badge/OOP-inheritance-brightgreen.svg
+https://img.shields.io/badge/OOP-polymorphism-blueviolet.svg
+
 C++ OOP: Encapsulation, Abstraction, Inheritance, Polymorphism.
 
 1) C++ Encapsulation
