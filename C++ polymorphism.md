@@ -23,7 +23,7 @@ We can implement polymorphism in C++ using the following ways:
 	3) Function overriding
 	4) Virtual functions
 
-1) C++ Function Overloading
+# 1) C++ Function Overloading
 
 In C++, we can use two functions having the same name if they have different parameters (either types or number of arguments).
 
@@ -77,7 +77,7 @@ Here, we have created 3 different sum() functions with different parameters (num
 
 It's a compile-time polymorphism because the compiler knows which function to execute before the program is compiled.
 
-2) C++ Operator Overloading
+# 2) C++ Operator Overloading
 
 In C++, we can overload an operator as long as we are operating on user-defined types like objects or structures.
 
@@ -134,7 +134,7 @@ We have used this overloaded operator to directly increment the value variable o
 
 This is also a compile-time polymorphism.
 
-3) C++ Function Overriding
+# 3) C++ Function Overriding
 
 In C++ inheritance, we can have the same function in the base class as well as its derived classes.
 
@@ -188,7 +188,7 @@ When we call print() using the Derived object derived1, it overrides the print()
 
 It's a runtime polymorphism because the function call is not resolved by the compiler, but it is resolved in the runtime instead.
 
-4) C++ Virtual Functions
+# 4) C++ Virtual Functions
 
 In C++, we may not be able to override functions if we use a pointer of the base class to point to an object of the derived class.
 
