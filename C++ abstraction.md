@@ -1,4 +1,4 @@
-# C++ Abstract Class and Pure Virtual Function
+# C++ Abstraction: Abstract Class and Pure Virtual Function
 [![en](https://img.shields.io/badge/OOP-encapsulation-blue.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20encapsulation.md)
 [![en](https://img.shields.io/badge/OOP-abstraction-yellow.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20abstraction.md)
 [![en](https://img.shields.io/badge/OOP-inheritance-brightgreen.svg)](https://github.com/khasanrashidov/CPP-OOP-programiz.com/blob/main/C%2B%2B%20inheritance.md)
