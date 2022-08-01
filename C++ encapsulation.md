@@ -1,19 +1,12 @@
-# CPP-OOP-programiz.com
-https://img.shields.io/badge/OOP-encapsulation-blue.svg
-https://img.shields.io/badge/OOP-abstraction-yellow.svg
-https://img.shields.io/badge/OOP-inheritance-brightgreen.svg
-https://img.shields.io/badge/OOP-polymorphism-blueviolet.svg
+# C++ encapsulation
 
-C++ OOP: Encapsulation, Abstraction, Inheritance, Polymorphism.
-
-1) C++ Encapsulation
-
+C++ Encapsulation
 
 Encapsulation is one of the key features of object-oriented programming. It involves the bundling of data members and functions inside a single class.
 
 Bundling similar data members and functions inside a class together also helps in data hiding.
 
-C++ Encapsulation
+# C++ Encapsulation
 In general, encapsulation is a process of wrapping similar code in one place.
 
 In C++, we can bundle data members and functions that operate together inside a single class. For example,
@@ -36,8 +29,7 @@ Hence, the data members (length and breadth) and the function getArea() are kept
 
 ![image](https://user-images.githubusercontent.com/89701590/182226315-43d5cc33-2687-426c-8b94-8b902b1526ab.png)
 
-C++ Encapsulation
-Encapsulation in C++
+# C++ Encapsulation
 
 Example 1: C++ Encapsulation
 
@@ -89,7 +81,7 @@ Note: People often consider encapsulation as data hiding, but that's not entirel
 
 Encapsulation refers to the bundling of related fields and methods together. This can be used to achieve data hiding. Encapsulation in itself is not data hiding.
 
-Why Encapsulation?
+# Why Encapsulation?
 
 In C++, encapsulation helps us keep related data and functions together, which makes our code cleaner and easy to read.
 
@@ -123,7 +115,7 @@ We can also achieve data hiding using encapsulation. In Example 1, if we change 
 
 And, they are kept hidden from outer classes. This is called data hiding.
 
-Data Hiding
+# Data Hiding
 
 Data hiding is a way of restricting the access of our data members by hiding the implementation details. Encapsulation also provides a way for data hiding.
 
@@ -217,3 +209,5 @@ If we try to access the variables from the main() class, we will get an error.
 
 	// error: rectangle1.breadth is inaccessible
 	rectangle1.length = 6;
+
+Reference: https://www.programiz.com/cpp-programming/encapsulation
